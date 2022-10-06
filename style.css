@@ -1,0 +1,26 @@
+.background {
+    background-color: darkolivegreen;
+    size: auto;
+}
+.background2 {
+    background-color: olivedrab;
+}
+.h1 {
+    font-family: Creepster;
+    font-size: 24pt;
+    text-align: center;
+    grid-area: header;
+}
+.section {
+    font-size: 18pt;
+}
+.main {
+    font-size: 20pt;
+    font-family: Creepster;
+    text-align: center;
+    grid-area: main;
+}
+.footer {
+    font-size: 16pt;
+    grid-area: footer;
+}
