@@ -15,27 +15,35 @@
         Zombie Picnic!
         </h1>
     </div>
+    <form action="">
     <div class="section">
-        <input class="rnd" type="text" placeholder="verb-ed"> 
-        <input class="rnd" type="text" placeholder="verb"> 
-        <input class="rnd" type="text" placeholder="verb"> 
-        <input class="rnd" type="text" placeholder="noun; body part"> 
-        <input class="rnd" type="text" placeholder="noun; body part"> 
-        <input class="rnd" type="text" placeholder="noun; body part"> 
-        <input class="rnd" type="text" placeholder="noun"> 
-        <input class="rnd" type="text" placeholder="adjective"> 
-        <input class="rnd" type="text" placeholder="noun; beverage"> 
-        <input class="rnd" type="text" placeholder="noun; body part"> 
-        <input class="rnd" type="text" placeholder="noun; something gross"> 
-        <input class="rnd" type="text" placeholder="verb"> 
-        <input class="rnd" type="text" placeholder="adjective"> 
-        <input class="rnd" type="text" placeholder="noun; body part"> 
-        <input class="rnd" type="text" placeholder="noun; body part">
+        <input class="rnd" type="text" id = 'word1' placeholder="verb-ed"> 
+        <input class="rnd" type="text" id = 'word2' placeholder="verb"> 
+        <input class="rnd" type="text" id = 'word3' placeholder="verb"> 
+        <input class="rnd" type="text" id = 'word4' placeholder="noun; body part"> 
+        <input class="rnd" type="text" id = 'word5' placeholder="noun; body part"> 
+        <input class="rnd" type="text" id = 'word6' placeholder="noun; body part"> 
+        <input class="rnd" type="text" id = 'word7' placeholder="noun"> 
+        <input class="rnd" type="text" id = 'word8' placeholder="adjective"> 
+        <input class="rnd" type="text" id = 'word9' placeholder="noun; beverage"> 
+        <input class="rnd" type="text" id = 'word10' placeholder="noun; body part"> 
+        <input class="rnd" type="text" id = 'word11' placeholder="noun; something gross"> 
+        <input class="rnd" type="text" id = 'word12' placeholder="verb"> 
+        <input class="rnd" type="text" id = 'word13' placeholder="adjective"> 
+        <input class="rnd" type="text" id = 'word14' placeholder="noun; body part"> 
+        <input class="rnd" type="text" id = 'word15' placeholder="noun; body part">
         </div>
+    </form>
     <p class="main">
         If zombies ___ a picnic, what would they ___ to eat? Everbody knows zombies love to ___ ___, but did you know they also enjoy ___ and even ___? The best ___ for a zombie picnic is when the moon is ___. At least one zombie will bring ___ to drink, and it's not a picnic without ___ with extra ___ on top. After eating, zombies will ___ ___ games like kick the ___ and ___ toss.
     </p>
-    <img class="img" src="/madLibs/zombi.png" alt="A zombie on his way to a picnic">
+    <img class="img" src="/madLibs/images/zombi.png" alt="A zombie on his way to a picnic">
+
+    <button onclick = 'createParagraph()' type="submit">Submit</button>
+
+    <div id = 'answer'></div>
+
+    <script src="app.js"></script>
 </body>
 </div>
 </html>
